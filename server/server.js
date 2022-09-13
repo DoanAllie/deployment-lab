@@ -8,7 +8,7 @@ app.use(express.json())
 app.use(cors())
 
 çapp.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/index.html'))
+    res.sendFile(path.join(__dirname, '../index.html'))
 })
 
 const port = process.env.PORT || 4000
